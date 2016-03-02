@@ -169,3 +169,21 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+@media (max-width:629px) {
+	.searchBox input{
+		width:80%;
+	}
+}
+
+@media (max-width: 433px) {
+	.bottomLinks .right {
+		padding-right:0px;
+	}
+}
+
+@media (max-width: 400px) {
+	.bottomLinks .right {
+		display:none;
+	}
+}
